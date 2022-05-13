@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+body{
+    max-width: 1440px;
+    min-height: 100vh;
+    background-color: #F9F9F9;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    text-align: center;   
+}
+header .header__desconto , .header__title{
+    width: 100%;
+    padding: 15px;
+}
+header .header__desconto{
+    background-color: #181818;
+    color: #EBE9EA;
+    font-weight: 500;
+}
+header .header__title{
+    font-size: 1.5rem;
+    color: #181818;
+    font-weight: 600;
+}
+section .banner__jordan{
+    background: rgba(0, 0, 0, 0.4) url('../img/airjordanbanner.svg') no-repeat 50% 50%;
+    background-blend-mode: darken;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+section .banner__jordan .banner__jordan--texts{
+    color: #EBE9EA;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    margin-left:clamp(8px, 8%, 100px);
+    padding: 5px;
+}
+section .banner__jordan .banner__jordan--texts .jordan__title{
+    font-size: clamp(1.75rem, 10%, 2rem);
+    font-weight: 700;
+}
+section .banner__jordan .banner__jordan--texts .jordan__paragraph{
+    font-size: max(1.125rem);
+    line-height: 2rem;
+    font-weight: 500;
+    max-width: 460px;
+}
+section .container__destaque{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+section .container__destaque .destaque__texts{
+    margin: 59px auto;
+    text-align: center;
+    line-height: 3rem;
+}
+section .container__destaque .destaque__texts .destaque__texts--title{
+    color: #181818;
+    font-weight: 600;
+    font-size: 2rem;
+}
+section .container__destaque .destaque__texts .destaque__texts--paragraph{
+    color: #474747;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 32px;
+}
+section .container__destaque .destaque__shoes{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section .container__destaque .destaque__shoes div{
+    height: 300px;
+    height: 200px;
+    margin: 25px 15px;
+}
+footer{
+    background-color: #181818;
+    padding: 15px;
+    text-align: center;
+    color: #EBE9EA;
+}
+footer a{
+    color: #EBE9EA;
+}
